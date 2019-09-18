@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="400dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="400dp"
+    android:orientation="vertical"
+    android:background="@color/color7"
+    android:layout_height="290dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="60dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color15"
+        android:textSize="23dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/"
+        android:id="@+id/titleTWId"
+        android:text="title goes here...."/>
+</RelativeLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color15"
+    android:layout_height="130dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#4d5f79"
+            android:textSize="22dp"
+         android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/"
+            android:id="@+id/messageTWId"
+            android:text="default text goes here...."/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/color10"
+        android:layout_height="4dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:textColor="@color/color27"
+            android:textSize="18sp"
+            android:clickable="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_marginRight="10dp"
+            android:text="Yes"
+            android:layout_toLeftOf="@+id/no_button"
+            android:windowSoftInputMode="stateHidden"
+            android:id="@+id/yes_button"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/color28"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="18sp"
+            android:windowSoftInputMode="stateHidden"
+            android:text="No"
+            android:clickable="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/no_button"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>

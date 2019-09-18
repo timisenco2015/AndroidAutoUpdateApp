@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AutoUpdate</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+</resources>
